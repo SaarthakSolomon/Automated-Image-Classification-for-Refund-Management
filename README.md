@@ -26,7 +26,7 @@ Ensure the following are installed on your system:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/refund-item-classification.git
+git clone https://github.com/SaarthakSolomon/Automated-Image-Classification-for-Refund-Management.git
 cd refund-item-classification
 ```
 
@@ -47,7 +47,7 @@ Ensure you have CUDA installed if you intend to run the model on a GPU. Refer to
 
 ## Usage
 ### 1. Preparing the Dataset
-- Download the dataset from [Here](https://drive.google.com/file/d/1oVW5R8OrHjdPKeV60Evvy1qC_zTNe3RP/view?usp=sharing) and organize it as follows:
+- Download the dataset from [Here](https://drive.google.com/file/d/1FTuwvVvNgbzHKEFY2EcVxK_D160J4GoC/view?usp=sharing) and organize it as follows:
   ```
   Data/
       train/
@@ -128,7 +128,7 @@ refund-item-classification/
 - **Scalability**: Deploy the API on cloud platforms (e.g., AWS, Azure) for handling large-scale requests.
 
 ## References
-- **Dataset**: [[Dataset URL](https://drive.google.com/file/d/1oVW5R8OrHjdPKeV60Evvy1qC_zTNe3RP/view?usp=sharing)]
+- **Dataset**: [Dataset URL](https://drive.google.com/file/d/1FTuwvVvNgbzHKEFY2EcVxK_D160J4GoC/view?usp=sharing)
 - **VGG16 Model**: [PyTorch VGG16 Documentation](https://pytorch.org/vision/stable/models.html)
 - **Python Libraries**: torch, torchvision, Flask, PIL, schedule
 - **CUDA Setup**: [NVIDIA CUDA Installation Guide](https://developer.nvidia.com/cuda-downloads)
