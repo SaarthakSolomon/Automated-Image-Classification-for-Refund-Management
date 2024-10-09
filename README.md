@@ -14,7 +14,7 @@ This project provides an automated solution for classifying refund items using a
 - **Monitoring and Logging**: Integrated logging for tracking API usage and batch processing.
 
 ## Dataset
-The dataset used in this project was sourced from [Kaggle](Kaggle Dataset URL). It contains images of items labeled into 22 categories such as electronics, footwear, and accessories. Make sure to download and organize the dataset as described in the setup instructions.
+The dataset used in this project was sourced from [Kaggle](https://drive.google.com/file/d/1FTuwvVvNgbzHKEFY2EcVxK_D160J4GoC/view?usp=sharing)). It contains images of items labeled into 22 categories such as electronics, footwear, and accessories. Make sure to download and organize the dataset as described in the setup instructions.
 
 ## Installation
 ### Prerequisites
@@ -47,7 +47,7 @@ Ensure you have CUDA installed if you intend to run the model on a GPU. Refer to
 
 ## Usage
 ### 1. Preparing the Dataset
-- Download the dataset from (https://drive.google.com/file/d/1oVW5R8OrHjdPKeV60Evvy1qC_zTNe3RP/view?usp=sharing) and organize it as follows:
+- Download the dataset from [Here](https://drive.google.com/file/d/1oVW5R8OrHjdPKeV60Evvy1qC_zTNe3RP/view?usp=sharing) and organize it as follows:
   ```
   Data/
       train/
@@ -68,7 +68,7 @@ Run the `classification_model.py` script to train the model:
 ```bash
 python classification_model.py
 ```
-The trained model will be saved as `final_refund_item_classifier.pth`, and can be downloaded from ([final_refund_item_classifier.pth](https://drive.google.com/file/d/1y3Cl4q8eVMxutrfkw916_8gTnsE5Frle/view?usp=sharing)).
+The trained model will be saved as `final_refund_item_classifier.pth`, and can be downloaded from ([final_refund_item_classifier.pth](https://drive.google.com/file/d/1FTuwvVvNgbzHKEFY2EcVxK_D160J4GoC/view?usp=sharing)).
 
 ### 3. Running the Flask API
 Start the Flask API by running:
