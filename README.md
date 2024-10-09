@@ -68,7 +68,7 @@ Run the `classification_model.py` script to train the model:
 ```bash
 python classification_model.py
 ```
-The trained model will be saved as `final_refund_item_classifier.pth`.
+The trained model will be saved as `final_refund_item_classifier.pth`, and can be downloaded from ([final_refund_item_classifier.pth](https://drive.google.com/file/d/1y3Cl4q8eVMxutrfkw916_8gTnsE5Frle/view?usp=sharing)).
 
 ### 3. Running the Flask API
 Start the Flask API by running:
